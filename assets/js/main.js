@@ -9,9 +9,5 @@ var jQ = $("#Jquery");
 
 
 
-$(document).ready(function(){
-    $(".dropDown").mouseover(function(){
-        $(this).css("display","initial");
-    })
-    
-});
+
+

@@ -1,3 +1,4 @@
+
 body{
     padding: 0px;
     color: white;
@@ -48,6 +49,7 @@ button{
     z-index: 0;
     background-color: rgb(51, 56, 59);
     width : 94%;
+    height: 100%;
     margin: 20px 0px 0px 25px;
         
     
@@ -64,7 +66,7 @@ button{
     border-top: 2px solid black;
     border-left: 2px solid black;
     width: 100%;
-    height: 500px;
+    height: 100%;
     padding: 20px;
 
 }
@@ -72,14 +74,51 @@ button{
 
 .dropDown{
     margin: auto;
-    width: 90%;
-    display: none;
+    width: 90%; 
+    
+    
  
 }
 
 .learnList{
-    margin-left: 20px;
+   
     margin-top: 50px;
     border-bottom: #6ed3cf 2px solid;
     width: 90%;
+
+
+
 }
+li{
+    display:none;
+    
+}
+.dropDown:hover li{
+    display:block;
+}
+
+
+aside{
+    background-color: white;
+    border-bottom: black 2px solid;
+    width: 75%;
+}
+
+.asideText{
+
+    line-height: 30px;
+  
+    
+}
+#codeImage{
+
+    height: 150x;
+    width: 150px;
+  
+
+}
+#about{
+    border-bottom: 2px solid black;
+    margin-bottom: 30px;
+}
+
